@@ -5,3 +5,19 @@
         <i class="icon-spinner icon-spin icon-4x"></i>
     </div>
 </div>
+
+<!--Example using with jQuery-->
+<script>
+var preloader = {
+    start_preloader : function(){
+        jQuery(".preloader_all").show();
+    },
+    stop_preloader : function(){
+        jQuery(".preloader_all").hide();
+    }
+}
+
+//and later
+preloader.start_preloader();
+preloader.stop_preloader();
+</script>
